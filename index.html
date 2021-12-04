@@ -9,14 +9,17 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body class="bg-black text-white font-mono">
-<button type="button" name="button" class="md:block hidden outline-none m-3 absolute right-0"><i class="fas fa-bars fa-lg"></i></button>
-<nav class="h-100 w-100">
-	<ul class="flex flex-row md:flex-column align-center justify-center">
-		<li class="m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Rəsulzadə</li>
-		<li class="m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Kəlamlar</li>
-		<li class="m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Görüşlərim</li>
+<!-- <button onclick = "toggle()" type="button" name="button" class="md:hidden block outline-none m-3 relative toggle" align = "right"><i class="fas fa-bars fa-lg"></i></button> -->
+<nav class="w-100">
+	<ul id = "menu" class="flex flex-row md:flex-col block align-center justify-center">
+		<li class="m-3 sm:m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Rəsulzadə</li>
+		<li class="m-3 sm:m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Kəlamlar</li>
+		<li class="m-3 sm:m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Görüşlərim</li>
+		<li class="m-3 sm:m-5 p-3 hover:bg-white hover:text-black rounded-xl cursor-pointer">Mənbə</li>
 	</ul>
 </nav>
 <div class="axc-logo">
@@ -26,17 +29,18 @@
   	Azərbaycan Xalq Cümhuriyyəti Bayrağı. 1918, 21 iyun - 1920, 3 may.
   </div>
 </div>
+<br><br>
 <div align = "center">
 <h1 class="text-2xl">Azərbaycan Xalq Cumhuriyyətinin qurucuları</h1>
 </div>
 <div class="parts justify-center items-center flex flex-row">
 <div class="resulzade m-5 flex flex-col justify-center items-center">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Mahammad_Amin_Rasulzade_3.jpg" alt="resulzade" class="leaders cursor-pointer w-40 scale-3 h-40 rounded-full">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Mahammad_Amin_Rasulzade_3.jpg" alt="resulzade" class="leaders cursor-pointer w-40 scale-3 md:h-40 h-30 rounded-full">
 	<h6>M.Ə.Rəsulzadə</h6>
 </div>
 
 <div class="topcubasov m-5 flex flex-col justify-center items-center" align = "center">
- <img src="https://media.discordapp.net/attachments/861315062094102559/916427130420752404/2Q.png" alt="topcubasov" class="leaders cursor-pointer w-40 scale-3 h-40 rounded-full">
+ <img src="https://media.discordapp.net/attachments/861315062094102559/916427130420752404/2Q.png" alt="topcubasov" class="leaders cursor-pointer w-40 h-40 rounded-full">
  <h6>Topçubaşov</h6>
 </div>
 
@@ -50,8 +54,10 @@
   <h6>Nəsif Bəy Yusifbəyli</h6>
 </div>
 </div>
-<div class="">
-
+<div class="vikipediya bg-white text-black w-100 p-5 text-2xl w-auto text-center rounded-xl">
+	Azərbaycan Xalq Cümhuriyyəti (azərb-ərəb. آذربایجان خالق جومهوریتی‎) və ya Azərbaycan Demokratik Cümhuriyyəti və ya Azərbaycan Demokratik Respublikası (özünüadlandırma: Azərbaycan Cümhuriyyəti[5] və ya Azərbaycan Respublikası), qısaca AXC və ya ADR — Azərbaycan xalqının Çar Rusiyasına qarşı milli azadlıq mübarizəsi nəticəsində, Birinci Dünya müharibəsi dövründə Şimali Azərbaycanda yaranmış müstəqil dövlət və Müsəlman Şərqində ilk parlament respublikası. Paytaxtı əvvəlcə Gəncə, sonra Bakı şəhəri idi. Azərbaycan Xalq Cümhuriyyətinin yaranması ərəfəsində Cənubi Qafqazda azərbaycanlıların elliklə yaşadıqları ərazilər təqribən 150 min kv. km-ə bərabər idi. 1918-ci ildə Cənubi Qafqazda müstəqil dövlətlər meydana gəldikdə, əzəli Azərbaycan torpaqlarının bir hissəsində Ermənistan Demokratik Respublikası yaradıldı. AXC Hökuməti, həmçinin, Azərbaycanın qədim mədəniyyət mərkəzlərindən biri və keçmiş İrəvan xanlığının paytaxtı olan İrəvanı da ermənilərə güzəştə getməyə və onu yeni yaradılan Ermənistan Demokratik Respublikası "siyasi mərkəzi" kimi tanımağa məcbur oldu. Beləliklə, Cənubi Qafqaz respublikaları arasında sərhəd məsələləri qismən nizama salındıqdan sonra AXC Cənubi Qafqazdakı tarixi Azərbaycan torpaqlarının 113,9 min kv. km-ni əhatə edirdi. AXC-nin əhalisi 2.8 milyondan çox idi.
+  <br><br><br>
+	<span class = "text-black text-xl hover:p-5 hover:bg-blue-600 rounded-xl cursor-pointer p-4 border-3 border-blue-600 w-full h-[100px] hover:text-white">Mənbə</span>
 </div>
 </body>
 </html>
